@@ -1,0 +1,53 @@
+Command: /home/student/Documents/Manav/Design/./simv -l /home/student/Documents/Manav/Design/logs_rv32i/sim.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09_Full64; Runtime version W-2024.09_Full64;  Jul  3 15:03 2026
+[TB] Retirement #0 OK: PC=0x0 wr=1 rd=x1 data=0x5
+[TB] Retirement #1 OK: PC=0x4 wr=1 rd=x2 data=0xa
+[TB] Retirement #2 OK: PC=0x8 wr=1 rd=x3 data=0xf
+[TB] Retirement #3 OK: PC=0xc wr=1 rd=x4 data=0x5
+[TB] Retirement #4 OK: PC=0x10 wr=1 rd=x5 data=0x0
+[TB] Retirement #5 OK: PC=0x14 wr=1 rd=x6 data=0xf
+[TB] Retirement #6 OK: PC=0x18 wr=1 rd=x7 data=0xf
+[TB] Retirement #7 OK: PC=0x1c wr=1 rd=x8 data=0x1
+[TB] Retirement #8 OK: PC=0x20 wr=1 rd=x9 data=0x0
+[TB] Retirement #9 OK: PC=0x24 wr=1 rd=x10 data=0x14
+[TB] Retirement #10 OK: PC=0x28 wr=1 rd=x11 data=0x5
+[TB] Retirement #11 OK: PC=0x2c wr=1 rd=x12 data=0x2
+[TB] Retirement #12 OK: PC=0x30 wr=1 rd=x13 data=0x1000
+[TB] Retirement #13 OK: PC=0x34 wr=1 rd=x14 data=0x34
+[TB] Retirement #14 OK: PC=0x38 wr=1 rd=x15 data=0x64
+[TB] Retirement #15 OK: PC=0x3c wr=0 rd=x0 data=0x64
+[TB] Retirement #16 OK: PC=0x40 wr=0 rd=x4 data=0x68
+[TB] Retirement #17 OK: PC=0x44 wr=1 rd=x16 data=0x5
+[TB] Retirement #18 OK: PC=0x48 wr=1 rd=x17 data=0x5
+[TB] Retirement #19 OK: PC=0x4c wr=0 rd=x8 data=0x6c
+[TB] Retirement #20 OK: PC=0x50 wr=1 rd=x18 data=0xa
+[TB] Retirement #21 OK: PC=0x54 wr=1 rd=x19 data=0xa
+[TB] Retirement #22 OK: PC=0x58 wr=0 rd=x12 data=0x70
+[TB] Retirement #23 OK: PC=0x5c wr=1 rd=x20 data=0x5
+[TB] Retirement #24 OK: PC=0x60 wr=1 rd=x21 data=0x5
+[TB] Retirement #25 OK: PC=0x64 wr=1 rd=x22 data=0x1
+[TB] Retirement #26 OK: PC=0x68 wr=0 rd=x8 data=0x70
+[TB] Retirement #27 OK: PC=0x70 wr=1 rd=x23 data=0x2a
+[TB] Retirement #28 OK: PC=0x74 wr=0 rd=x8 data=0x7c
+[TB] Retirement #29 OK: PC=0x7c wr=1 rd=x24 data=0x7
+[TB] Retirement #30 OK: PC=0x80 wr=0 rd=x8 data=0x88
+[TB] Retirement #31 OK: PC=0x84 wr=1 rd=x25 data=0x37
+[TB] Retirement #32 OK: PC=0x88 wr=1 rd=x26 data=0x8c
+[TB] Retirement #33 OK: PC=0x90 wr=1 rd=x28 data=0xb
+[TB] Retirement #34 OK: PC=0x94 wr=1 rd=x29 data=0xa4
+[TB] Retirement #35 OK: PC=0x98 wr=1 rd=x30 data=0x9c
+[TB] Retirement #36 OK: PC=0xa4 wr=1 rd=x31 data=0x4d
+[TB] Retirement #37 OK: PC=0xa8 wr=0 rd=x0 data=0xac
+[TB] Halt loop detected (PC=0xa8 retiring repeatedly). Ending test.
+========================================================
+[TB] SUMMARY: 38 instructions retired, 0 error(s)
+[TB] RESULT: PASS
+========================================================
+$finish called from file "tb_core.sv", line 190.
+$finish at simulation time               570000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 570000 ps
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Fri Jul  3 15:03:04 2026
