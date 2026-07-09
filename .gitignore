@@ -1,0 +1,77 @@
+# ============================================================
+# PDK-derived / NDA-protected files — never commit these
+# ============================================================
+*.db
+*.ndm
+*.tf
+*.tluplus
+*.map
+*.gds
+*.def
+*.spef
+*.lef
+
+# ============================================================
+# Tool-generated outputs and working directories
+# ============================================================
+icc2_outputs/
+rv32i_outputs/
+checkpoints/
+reports/
+pt_reports/
+dc_outputs/
+alib/
+WORK/
+work/
+*.mdb/
+*.ndm/
+
+# ============================================================
+# Synopsys tool run artifacts
+# ============================================================
+*.log
+*.svf
+command.log
+default.svf
+filenames.log
+Milkyway.log
+MW_*
+.synopsys_dc.setup
+.synopsys_pt.setup
+.icc2_shell_history
+.dc_shell_history
+.pt_shell_history
+
+# ============================================================
+# Simulation (VCS) artifacts
+# ============================================================
+simv
+simv.daidir/
+csrc/
+*.vcd
+*.vpd
+*.fsdb
+*.wlf
+ucli.key
+vc_hdrs.h
+DVEfiles/
+*.vdb
+*.vc
+
+# ============================================================
+# DFT / TetraMAX artifacts
+# ============================================================
+*.stil
+*.satpg
+*.atpg_log
+
+# ============================================================
+# OS / editor cruft
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
